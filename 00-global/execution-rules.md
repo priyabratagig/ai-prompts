@@ -6,9 +6,14 @@ Modes:
 - autonomous (default)
 - governed
 
-Mode behavior:
-- governed: pause after reasoning phases and wait for human approval
-- autonomous: execute end-to-end unless a guardrail is triggered
+Pause behavior:
+
+If execution mode is governed:
+- PAUSE and wait for explicit human guidance.
+
+If execution mode is autonomous:
+- PAUSE ONLY IF a guardrail is triggered.
+- Otherwise continue execution internally.
 
 # Global Execution Rules (Authoritative)
 
