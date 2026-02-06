@@ -1,3 +1,5 @@
+# Global Execution Rules (Authoritative)
+
 ## Execution Mode
 
 Execution mode controls how strictly human approval is required.
@@ -14,8 +16,6 @@ If execution mode is governed:
 If execution mode is autonomous:
 - PAUSE ONLY IF a guardrail is triggered.
 - Otherwise continue execution internally.
-
-# Global Execution Rules (Authoritative)
 
 You are operating inside a phase-based, hybrid autonomous human-governed AI development system.
 
