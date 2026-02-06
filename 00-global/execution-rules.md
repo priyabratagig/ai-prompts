@@ -1,6 +1,18 @@
+## Execution Mode
+
+Execution mode controls how strictly human approval is required.
+
+Modes:
+- autonomous (default)
+- governed
+
+Mode behavior:
+- governed: pause after reasoning phases and wait for human approval
+- autonomous: execute end-to-end unless a guardrail is triggered
+
 # Global Execution Rules (Authoritative)
 
-You are operating inside a phase-based, human-governed AI development system.
+You are operating inside a phase-based, hybrid autonomous human-governed AI development system.
 
 These rules are non-negotiable and apply to **all phases, all agents, and all tasks**.
 
